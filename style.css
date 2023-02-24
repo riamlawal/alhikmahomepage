@@ -1,0 +1,940 @@
+ 
+html,
+body {
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+body {
+  background: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin:0;
+  padding: 0;
+
+}
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 90%;
+  
+
+}
+
+
+.speech{
+  position: absolute;
+  color: #fff;
+
+}
+
+.swiper-slide {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+   background-size: cover;
+   background-position: center; 
+  
+}
+
+
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+  background-position: top-center; 
+  background-size: cover; 
+
+}
+
+ .swiper-slide .ever{
+   height: 50px;
+  width: 50px;
+   border-radius: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+}    
+
+
+
+.big{ 
+  height: 90%;
+    width: 30%; 
+   border-radius: 10px;
+  box-shadow: 2px 2px #ccc;
+  
+} 
+
+.mytestimonial{
+  height: 50%;
+}
+
+ .dummy{
+ font-size: 15px;
+  font-style: italic; 
+} 
+
+
+
+
+.mariam {
+  display: flex;
+   flex-wrap:wrap ;
+  justify-content: center;
+  height: 200px;
+  background-color: #7E30A3;
+  padding-top: 50px;
+  
+}
+
+.mariam img{
+      height: 110px;
+      width: 110px;
+    }
+
+
+
+
+h2 {
+  color: white;
+  padding-right: 100px;
+}
+
+
+.welcome h3{
+flex-wrap: wrap;
+  font-size: 25px; 
+  text-align: center;
+  color: #7E30A3;
+
+}
+
+ .hikmah{
+     text-align: center;
+}
+
+.most{
+  padding-left: 30%;
+  padding-top: 10px;
+  font-size: 19px;
+  font-style: italic;
+}
+
+.hikmah{
+  font-size: 19px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.vision{
+ display: flex;
+flex-wrap: wrap; 
+ margin-left: 3%; 
+text-align: center;
+
+}
+
+
+.five img{
+height: 150px;
+width: 150px;
+}
+
+
+
+  .five p{
+    padding: 11px;
+  } 
+
+
+.button {
+   padding: 7px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #7E30A3;
+  transition: all 1000ms;
+  font-size: 10px; 
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #7E30A3;
+}
+
+button:hover {
+   color: #fff; 
+  transform: scale(1.1);
+  outline: 2px solid #7E30A3;
+  box-shadow: 4px 5px 17px -4px #7E30A3;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #7E30A3;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+button:hover::before {
+  width: 250%;
+}
+
+
+
+.word {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  color: #7E30A3;
+}
+
+ .mahmoud {
+   display: flex; 
+  justify-content: space-between; 
+  
+
+
+}
+
+.mahmoud .pic {
+   border: 1px solid #7E30A3; 
+   border-radius: 10px; 
+  height: 80%;
+ width: 130%;
+  margin-left: 120px; 
+  margin-top: 20px; 
+}
+
+
+.lorem p {
+  padding-top: 40px;   
+   font-style: italic; 
+  font-size:17px; 
+  text-align: start;
+} 
+
+
+.our {
+  font-size: 40px;
+  text-align: center;
+   color: #7E30A3; 
+
+}
+
+.programs {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;  
+
+}
+
+
+
+   .care{
+    height: 500px;
+    width: 380px;
+    margin: 20px;
+    border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 2px 2px #ccc; 
+  
+   }
+    
+   
+
+
+ .care  img {
+  width: 380px;
+  height: 300px;
+  border-radius: 20px 20px 0 0;
+} 
+
+
+ .care p{
+  font-size: 13px;
+   padding-left: 30px; 
+   text-align: center;
+   
+
+  
+} 
+
+   .care button{
+  margin-left: 250px;
+   padding: 5px;
+  }   
+
+
+
+ .care h3{
+  padding-left: 100px;
+  font-size: 24px;
+  color: #7E30A3;
+} 
+
+
+
+.unique h1{
+  font-size: 30px;
+ text-align: center;
+   padding-top: 100px; 
+  color: #7E30A3;
+ 
+}
+
+ .unique p {
+  text-align: center;
+  font-size: 20px;
+ 
+} 
+
+
+
+.container{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+    padding-top: 10px;
+   
+}
+
+.container .card{
+  position: relative;
+  cursor:pointer;
+}
+
+.container .card .face{
+  width: 380px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container .card .face.face1{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+  background: #fff;
+  transform: translateY(0);
+}
+
+.container .card .face.face1 .content{
+  opacity: 0.2;
+  transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content{
+  opacity: 1;
+}
+
+.container .card .face.face1 .content img{
+  max-width: 380px;
+}
+
+ .container .card .face.face1 .content h3{
+  color: #fff;
+ }
+
+.container .card .face.face2{
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; 
+  box-sizing: border-box;
+  box-shadow: 3px 3px #ccc;
+   border-radius: 0px 0px 20px 20px;
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p{
+  text-align: center;
+}
+
+.container .card .face.face2 .content a{
+   margin: 15px 0 0; 
+  display:  inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #fff;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover{
+  background: #333;
+  color: #fff;
+}
+
+
+
+.test h1{
+  font-size: 30px;
+  text-align: center;
+  color: #7E30A3;
+  
+}
+
+.test p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0;
+} 
+
+.come{
+  margin-top: 30px;
+  margin-right: 70%;
+}
+
+ .took{
+  margin-top: -70px
+
+ }
+
+ .took{
+       font-style: normal;
+} 
+
+
+
+.birth{
+  display: flex;
+   margin-left: 15%;
+   margin-top: 60px;
+}
+
+.his{
+width: 45%;
+  box-shadow: 2px 2px 2px 2px #ccc;
+
+}
+
+.great{
+  font-size: 23px;
+}
+
+.great p{
+  font-size: 20px; 
+   padding-left: 7%; 
+ padding-top: 4%;  
+
+}
+
+
+.self p{
+  color: #7E30A3;
+   padding-left: 7%;
+  margin-top: -5%;
+    
+}
+
+.not img{
+    
+  border-radius: 4px;
+}
+
+
+.facilities{
+  font-size: 30px;
+  text-align: center;
+  color: #7E30A3;
+   padding-top: 40px;
+   
+}
+
+.room{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px; 
+
+
+}
+
+.plays img{
+  height: 250px;
+    width: 250px;
+    border-radius: 250px;
+}
+  
+
+.plays h2{
+  color: #000;
+  text-align: center;
+}
+
+.plays p{
+  text-align: start;
+  font-size: 15px;
+} 
+
+
+
+
+@media screen and (max-width: 768px) {
+    .mariam{
+     justify-content: space-around; 
+     height: 150px;
+     padding-top: 20px;
+    }
+
+   .mariam h2{
+     font-size: 10px;
+     text-align: justify;
+   }
+
+   .welcome{
+       font-size:35px;
+       text-align: center;
+     }
+
+     .vision{
+      display: inline-block;
+     flex-wrap: wrap;  
+      
+    }
+     
+     
+     .five img{
+     height: 180px;
+     width: 180px;
+     }
+     
+     .five p{
+         font-size: 23px;
+         text-align: center;
+       }
+
+       .five h1{
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+       }
+     
+     .button {
+        padding: 7px;
+       border: none;
+       border-radius: 5px;
+       text-transform: uppercase;
+       color: #7E30A3;
+       transition: all 1000ms;
+       font-size: 10px; 
+       position: relative;
+       overflow: hidden;
+       outline: 2px solid #7E30A3;
+     }
+     
+     button:hover {
+        color: #fff; 
+       transform: scale(1.1);
+       outline: 2px solid #7E30A3;
+       box-shadow: 4px 5px 17px -4px #7E30A3;
+     }
+     
+     button::before {
+       content: "";
+       position: absolute;
+       left: -50px;
+       top: 0;
+       width: 0;
+       height: 100%;
+       background-color: #7E30A3;
+       transform: skewX(45deg);
+       z-index: -1;
+       transition: width 1000ms;
+     }
+     
+     button:hover::before {
+       width: 250%;
+     }
+    
+
+   .mahmoud{
+    display: inline-block;
+  }
+
+  .mahmoud .pic{
+    height: 30%;
+    width: 80%;
+    align-self: center;
+
+  }
+
+  .lorem p{
+    text-align: center; 
+    font-size: 21px;
+  }
+
+  
+  .our{
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .care {
+    width: 500px;
+    height: 530px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px #ccc;
+    align-items: center;
+    
+  }
+  
+  .care  img {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+  }
+
+   .care p{
+    font-size: 18px;
+  } 
+
+  .container{
+    position: relative;
+    display: inline-block;
+    flex-wrap: wrap;
+      padding-top: 20px;
+      padding-left: 30%;
+     
+  }
+
+  .container .card .face{
+    width: 380px;
+    height: 200px;
+    transition: 0.5s;
+  }
+
+  .great p{
+    font-size: 13px; 
+   padding: 5px;
+  
+  }
+  
+  
+
+  .good {
+    width: 500px;
+    height: 530px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px #ccc;
+    align-items: center;
+   }
+  
+  .good img {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+  }
+
+   .good p{
+    font-size: 18px;
+  } 
+
+  .birth{
+    display: flex;
+     margin-left: 2%;
+     margin-top: 60px;
+  }
+  
+  .his{
+  width: 45%;
+    box-shadow: 2px 2px 2px 2px #ccc;
+  
+  }
+  
+  .great{
+    font-size: 23px;
+  }
+  
+  .great p{
+    font-size: 20px; 
+     padding-left: 7%; 
+   padding-top: 4%;  
+  
+  }
+  
+  
+  .self p{
+    color: #7E30A3;
+    padding-left: 7%; 
+    margin-top: -5%;
+      
+  }
+  
+  .facilities{
+    font-size: 40px;
+    text-align: center;
+    color: #7E30A3;
+  
+  }
+  
+  .room{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+       padding-top: 30px; 
+       margin-left: 40px;  
+       
+    } 
+  
+  .plays img{
+    height: 250px;
+      width: 250px;
+      border-radius: 250px;
+  }
+
+  .plays{
+    margin-left: 30px; 
+  }
+  
+  .plays h2{
+    color: #000;
+    text-align: center;
+  }
+  
+  .plays p{
+    text-align: start;
+    font-size: 15px;
+  }
+
+}
+  
+  
+
+
+
+@media screen and (max-width:390px) {
+    .mariam{
+        height: 80px;
+        padding-top: 20px;
+    }
+    .mariam img{
+      height: 50px;
+      width: 60px;
+    }
+
+ 
+
+.mariam h2{
+font-size: 10px;
+padding-right: 40px;
+text-align: end;
+}
+
+  .welcome{
+    font-size: 18px;
+}
+
+.hikmah{
+text-align:start; 
+}
+
+  #mission{
+     margin: auto; 
+  }
+
+  .mahmoud{
+     display: inline-block;
+  }
+
+  .mahmoud .pic{
+      align-self: center;
+       margin-left: 15%; 
+       height: 60%;
+       width: 70%; 
+  }
+
+  .lorem{
+    text-align: center;
+  }
+
+  .word{
+    font-size: 20px;
+  }
+
+  .our{
+    text-align: center;
+    padding-top: 30px; 
+  }
+
+  .care {
+    width: 340px;
+    height: 530px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px #ccc;
+  }
+  
+  .care  img {
+    width: 340px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .care button{
+    margin-left: 200px; 
+    background-color:#7E30A3;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 1px;
+    
+  } 
+
+  .care p{
+    font-size: 14px;
+  } 
+
+    .good {
+    width: 340px;
+    height: 530px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px #ccc;
+  }
+  
+  .good img {
+    width: 340px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .good p{
+    font-size: 14px;
+  } 
+
+  .birth{
+    display: inline-block;
+     margin-top: 60px;
+  }
+  
+  .his{
+  width: 90%;
+    box-shadow: 2px 2px 2px 2px #ccc;
+  
+  }
+  
+  .great{
+    font-size: 23px;
+  }
+  
+  .great p{
+    font-size: 20px; 
+     padding-left: 7%; 
+   padding-top: 4%;  
+  
+  }
+  
+  
+  .self p{
+    color: #7E30A3;
+    padding-left: 7%; 
+    margin-top: -5%;
+      
+  }
+
+  .big{ 
+    height: 90%;
+      width: 30%; 
+     border-radius: 10px;
+    box-shadow: 2px 2px #ccc;
+    
+  } 
+  
+  .mytestimonial{
+    height: 50%;
+  }
+  
+   .dummy{
+   font-size: 15px;
+    font-style: italic; 
+  } 
+
+   
+
+  .facilities{
+    font-size: 30px;
+    text-align: center;
+    color: #7E30A3;
+
+  }
+
+  
+  .room img{
+      border: 1px solid #7E30A3;
+      border-radius: 200px;
+      
+  }
+
+  
+ 
+  
+  .plays h2{
+    color: #000;
+    text-align: center;
+  }
+  
+  .plays p{
+    font-size: 12px; 
+    padding: 25px; 
+  }
+
+  .room{
+    padding: 60px; 
+  }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
